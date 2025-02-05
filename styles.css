@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    background: #4caf50;
+    color: white;
+    padding: 20px 0;
+    font-size: 2rem;
+  }
+  
+  /* Bucket List */
+  .bucket-list-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .bucket-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bucket-list li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .bucket-list li span {
+    font-size: 1.5rem;
+    color: #4caf50;
+    margin-right: 10px;
+  }
+  
+  .bucket-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #4caf50;
+    color: white;
+  }
+  .bucket-list li:hover {
+    background-color: #e8f5e9;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.2s ease;
+  }
+  
